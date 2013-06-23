@@ -69,11 +69,6 @@ function sstr_theme_setup() {
 	require( get_template_directory() . '/inc/extras.php' );
 
 	/**
-	 * Customizer additions
-	 */
-	require( get_template_directory() . '/inc/customizer.php' );
-
-	/**
 	 * Make theme available for translation
 	 * Translations can be filed in the /languages/ directory
 	 * If you're building a theme based on  Shape Shifter Theme, use a find and replace
