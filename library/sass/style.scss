@@ -77,6 +77,9 @@ a {
 // Import form styles into the cascade (if required)
 @import "libs/forms";			
 
+// Import WordPress defaul styles into the cascade (if required)
+@import "libs/wordpress";
+
 
 .assistive-text{@include hide-text; position:absolute!important;}
 .clearfix, .clr {@include clr;}
@@ -89,19 +92,6 @@ h1 						{ font-weight: 600; }
 ol 						{ @include ordered-inside }
 ul 						{ @include unordered-inside }
 
-
-.alignright{
-    float:right;
-}
-.alignleft{
-    float:left;
-}
-.half-left{
-
-}
-.half-right{
-
-}
 /* ::Layout styles - Layouts hold one or more modules together. */
 /* ------------------------------------------------------------ */
 
